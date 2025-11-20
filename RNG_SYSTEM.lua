@@ -116,8 +116,9 @@ end
 
 local function main()
     local seed = 2025
-    local luck = 1
+    local luck = 999999999
     local casts = 1
     simulate(casts, seed, luck)
 end
+
 main()
